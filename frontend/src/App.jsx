@@ -56,7 +56,7 @@ function App() {
   const handleSizeChange = (e) => {
     console.log(e.target.value);
     setSize(e.target.value);
-    setPage(1); // Reset page to 1 whenever page size changes
+    setPage(1); // Reset page to 1 whenever page size changes which is the first page
   };
 
   return (
